@@ -1,0 +1,186 @@
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+}
+
+/*.switch input {*/
+    /*opacity: 0;*/
+    /*width: 0;*/
+    /*height: 0;*/
+/*}*/
+
+/*.slider {*/
+    /*position: absolute;*/
+    /*cursor: pointer;*/
+    /*top: 0;*/
+    /*left: 0;*/
+    /*right: 0;*/
+    /*bottom: 0;*/
+    /*background-color: #ccc;*/
+    /*-webkit-transition: .4s;*/
+    /*transition: .4s;*/
+/*}*/
+
+/*.slider:before {*/
+    /*position: absolute;*/
+    /*content: "";*/
+    /*height: 26px;*/
+    /*width: 26px;*/
+    /*left: 4px;*/
+    /*bottom: 4px;*/
+    /*background-color: white;*/
+    /*-webkit-transition: .4s;*/
+    /*transition: .4s;*/
+/*}*/
+
+/*input:checked + .slider {*/
+    /*background-color: #2196F3;*/
+/*}*/
+
+/*input:focus + .slider {*/
+    /*box-shadow: 0 0 1px #2196F3;*/
+/*}*/
+
+/*input:checked + .slider:before {*/
+    /*-webkit-transform: translateX(26px);*/
+    /*-ms-transform: translateX(26px);*/
+    /*transform: translateX(26px);*/
+/*}*/
+
+
+
+
+
+
+.studyItem-container{
+    cursor: pointer;
+    list-style: none;
+}
+
+.studyItem-spacing-container{
+    padding-top: 25px;
+    padding-right: 30px;
+    padding-bottom: 25px;
+    padding-left: 30px;
+}
+
+
+.search {
+    margin: 20px;
+}
+
+.search > h3 {
+    font-weight: normal;
+}
+
+/*.search > h1,*/
+/*.search > h3 {*/
+    /*color: black;*/
+    /*margin-bottom: 15px;*/
+    /*text-shadow: 0 1px #0091c2;*/
+/*}*/
+
+.searchDiv {
+    display: inline-block;
+    position: relative;
+}
+
+
+.search-input{
+    color: black;
+    font-size: 16px;
+    background: white;
+    width: 25px;
+    height: 30px;
+    padding: 10px;
+    border: solid 2px black;
+    outline: none;
+    /*border-radius: 35px;*/
+    box-shadow: 0 1px black;
+    transition: width 0.2s;
+}
+
+.searchDiv > input::placeholder {
+    color: black;
+    opacity: 0.9;
+}
+
+
+.searchDiv > input::-ms-input-placeholder {
+    color: black;
+}
+
+.searchDiv > input:focus,
+.searchDiv > input:valid {
+    width: 250px;
+}
+
+nav .w3-row {height:500px; width:580%;}
+nav .w3-row {overflow:hidden; overflow-y:scroll;}
+
+nav .friendList{height:400px; width:50%;}
+nav .friendList{overflow:hidden; overflow-y:scroll;}
+
+
+.w3-text-grey{
+    white-space: nowrap;
+}
+
+.myImg{
+    position:absolute;
+    z-index:-1;
+    right: 30px;
+}
+.flexIt{
+    display: flex;
+    width:100%;
+}
+
+.depositButton{
+    font: bold 100% Arial;
+    text-decoration: none;
+    background-color:  #EEEEEE;
+    color: #333333;
+    padding: 1% 3% 1% 3%;
+    border-top: 1px solid #CCCCCC;
+    border-right: 1px solid #333333;
+    border-bottom: 1px solid #333333;
+    border-left: 1px solid #CCCCCC;
+}
+
+.depositButton:hover, .depositButton:visited, .depositButton:link,.depositButton:active
+{
+    color: #333333;
+    text-decoration: none;
+}
+
+.pseudoButton{
+    font: bold 11px Arial;
+    text-decoration: none;
+    background-color: #EEEEEE;
+    color: #333333;
+    padding: 2px 6px 2px 6px;
+    border-top: 1px solid #CCCCCC;
+    border-right: 1px solid #333333;
+    border-bottom: 1px solid #333333;
+    border-left: 1px solid #CCCCCC;
+}
+
+.ulFriend{width:100%;}
+
+.friendWrapper{width:55%;}
+.activeBlockWrapper{position:absolute;right:0;width:70%}
+
+.depositWrapper{
+    display:flex; flex-direction: row; justify-content: left; align-items: center;
+    padding-left:10px;
+    padding-top: 10px;
+    padding-bottom:8px;
+}
+.readyDeposit{
+    text-decoration: underline;
+    color:black;
+    background-color : White;
+}

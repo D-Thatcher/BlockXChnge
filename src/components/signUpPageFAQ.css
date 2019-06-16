@@ -1,0 +1,62 @@
+
+.myFAQ {
+    width: 1000px;
+    margin: 30px;
+}
+
+.FAQHeader {
+    font: 400 40px/1.5 "Playfair Display", serif;
+    letter-spacing: 5px;
+    margin: 0;
+    padding-bottom: 20px;
+}
+
+.FAQList {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.FAQItem {
+    font-family: "Times New Roman", Georgia, Serif, serif;
+    border-bottom: 1px solid #ccc;
+    padding:10px;
+    letter-spacing:normal;
+    font-size: 25px !important;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.FAQItem:last-child {
+    border: none;
+}
+
+.FAQItem div {
+    text-decoration: none;
+    color: #000;
+
+    -webkit-transition: font-size 0.1s ease, background-color 0.1s ease;
+    -moz-transition: font-size 0.1s ease, background-color 0.1s ease;
+    -o-transition: font-size 0.1s ease, background-color 0.1s ease;
+    -ms-transition: font-size 0.1s ease, background-color 0.1s ease;
+    transition: font-size 0.1s ease, background-color 0.1s ease;
+    display: block;
+    width: auto;
+}
+
+.FAQItem div:hover {
+    font-size: 30px;
+    /*background: #f6f6f6;*/
+    cursor:default;
+}
+
+.FAQItemChild{
+    width:1000px;
+    font-size: 20px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    padding-top:20px;
+}
+
+nav .FAQList{height:500px; width:100%;}
+nav .FAQList{overflow:hidden; overflow-y:scroll;}
