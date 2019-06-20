@@ -24,7 +24,7 @@ Finally, run
 
 to start the local development server (http://localhost:3000).
 
-On the initial page, you can create an account, sign-in, or scroll down to learn about how the exchange works.<br?
+On the initial page, you can create an account, sign-in, or scroll down to learn about how the exchange works.<br>
 
 ![alt text](https://github.com/D-Thatcher/BlockXChnge/blob/master/sinup.PNG)
 
