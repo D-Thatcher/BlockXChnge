@@ -13,10 +13,10 @@ Open a terminal and run
 
 ### `mongod`
 
-Presently, there are three separate databases; one for the user credentials and information (credentials), another for storing the minimal information necessary for the block chain (blockchain), and one for storing block information (blockinfochain).<br>
+Presently, there are three main schemas; one for the user credentials and information (credentials), another for storing the minimal information necessary for the block chain (blockchain), and one for storing block information (blockinfochain).<br>
 
 The corresponding servers can be started by opening terminals in src/backend and running `nodemon credentialServer.js`, 
-`nodemon blockServer.js` and `nodemon blockInfoServer.js`, respectively. This can be refactored to run concurrently in production.
+`nodemon blockServer.js` and `nodemon blockInfoServer.js`, respectively. 
 
 Finally, run 
 
